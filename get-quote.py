@@ -7,7 +7,12 @@ def main():
   f.close()
   last = 13
   rnd = random.randint(0, last)
+  rmd = random.randint(0, last)
+  rdt = random.randint(0, last)
   print(quotes[rnd])
+  print(quotes[rmd])
+  print(quotes[rdt])
+
 
 
 
